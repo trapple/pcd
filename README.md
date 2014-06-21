@@ -7,7 +7,8 @@ shell function using peco and cd
 # INSTALL
 
 ```
-curl -fsSL https://raw.githubusercontent.com/trapple/pcd/master/pcd >> ~/.zshrc
+cp Pcd $YOUR_FPATH
+echo "autoload -Uz pcd" >> ~/.zshrc
 ```
 
 ## peco setting
