@@ -1,6 +1,6 @@
 # pcd
 
-shell function using peco and cd
+pcd is a shell function using peco and cd.
 
 ![](http://gifzo.net/sPyvEHq2bs.gif)
 
