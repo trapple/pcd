@@ -13,5 +13,8 @@ elif [ $1 ] && [ $1 = "edit" ]; then
     $EDITOR $PCD_FILE
   fi
 else
-  cd $(cat $PCD_FILE | sort | peco)
+  PCD_RETURN=$(cat $PCD_FILE | sort | peco)
+  if [ $PCD_RETURN ]; then
+    cd $PCD_RETURN
+  fi
 fi
